@@ -1,8 +1,7 @@
 # Angular
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)  
 ### Bem vindo, ao repositório de recursos Angular. 👋  
 ---  
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)  
-
 Angular é uma estrutura de desenvolvimento (framework) web, com uma plataforma de design incrível, construída sobre TypeScript, para aplicações de página única (SPA, do inglês Single Page Aplication).  
 Entenda que, aplicação de página única são sites que conseguem atualizar seus elementos, sem a necessidade de atualizar a página inteira, como por exemplo, o Gmail, que na mesma página temos a possibilidade de abrir uma mensagem, excluí-la, respondê-la, etc, sem que toda a estrutura seja recarregada (apenas a parte central muda).  
 

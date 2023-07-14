@@ -2,7 +2,7 @@
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)  
 ### Bem vindo, ao repositório de recursos Angular. 👋  
 
-Angular é uma estrutura de desenvolvimento (framework) web, com uma plataforma de design incrível, construída sobre TypeScript, para aplicações de página única (SPA, do inglês Single Page Aplication).  
+Angular é uma estrutura de desenvolvimento (framework) web, com uma plataforma de design incrível, construída sobre TypeScript[¹], para aplicações de página única (SPA, do inglês Single Page Aplication).  
 Entenda que, aplicação de página única são sites que conseguem atualizar seus elementos, sem a necessidade de atualizar a página inteira, como por exemplo, o Gmail, que na mesma página temos a possibilidade de abrir uma mensagem, excluí-la, respondê-la, etc, sem que toda a estrutura seja recarregada (apenas a parte central muda).  
 
 Angular inclui:
@@ -34,3 +34,5 @@ O Angular CLI é a maneira mais rápida, direta e recomendada de desenvolver apl
 ### Bibliotecas originais  
 
 A seção Angular [applications: the essentials](https://angular.io/guide/what-is-angular#essentials) , fornece uma breve visão geral de alguns dos principais elementos arquitetônicos que são usados ​​na construção de aplicativos Angular. Os muitos benefícios do Angular realmente ficam claros quando seu aplicativo cresce e você deseja adicionar funções como navegação no site ou entrada do usuário. Use a plataforma Angular para incorporar uma das muitas bibliotecas originais fornecidas pelo Angular.
+
+[¹]: TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto estrito de JavaScript e adiciona tipagem estática opcional à linguagem. Ele é tratado no repositório [Javascript](https://github.com/dagbertoRigue/web-design/tree/main/03-javascript).

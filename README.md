@@ -1,10 +1,10 @@
 # Angular
-### Recursos Angular  
-Bem vindo, ao repositório de recursos Angular. 👋  
+### Bem vindo, ao repositório de recursos Angular. 👋  
 ---  
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)  
 
-Angular é uma plataforma de desenvolvimento, construída sobre TypeScript, para aplicações de página única (SPA, do inglês Single Page Aplication).  
+Angular é uma estrutura de desenvolvimento (framework) web, com uma plataforma de design incrível, construída sobre TypeScript, para aplicações de página única (SPA, do inglês Single Page Aplication).  
+Entenda que, aplicação de página única são sites que conseguem atualizar seus elementos, sem a necessidade de atualizar a página inteira, como por exemplo, o Gmail, que na mesma página temos a possibilidade de abrir uma mensagem, excluí-la, respondê-la, etc, sem que toda a estrutura seja recarregada (apenas a parte central muda).  
 
 Angular inclui:
 <ul>
@@ -15,13 +15,7 @@ Angular inclui:
 
 ### Componentes
 
-Os componentes são os blocos de construção que compõem um aplicativo. Um componente inclui uma classe TypeScript com um @Component() decorator, um modelo HTML e estilos. O @Component() decorator especifica as seguintes informações do Angular:
-
-<ul>
-<li>Um seletor CSS que define como o componente é usado em um modelo. Os elementos HTML em seu modelo que correspondem a esse seletor tornam-se instâncias do componente.</li>
-<li>Um modelo HTML que instrui o Angular sobre como renderizar o componente</li>
-<li>Um conjunto opcional de estilos CSS que definem a aparência dos elementos HTML do modelo</li>  
-</ul>  
+Os componentes são os blocos de construção que compõem um aplicativo. Um componente inclui uma classe TypeScript com um @Component() decorator, um modelo HTML e estilos.  
 
 O modelo de componente do Angular oferece encapsulamento forte e uma estrutura de aplicativo intuitiva. Os componentes também facilitam o teste de unidade do seu aplicativo e podem melhorar a legibilidade geral do seu código.
 

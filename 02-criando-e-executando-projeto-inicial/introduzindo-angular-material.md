@@ -15,14 +15,17 @@ Exibir um "slide toggle component" em seu aplicativo e verificar se tudo funcion
 
 3.1. Abrir o arquivo app.module.ts  
 3.2. Incluir o import: `import { MatSlideToggleModule } from '@angular/material/slide-toggle';`  
-3.3. Adicionar na chamada: `@NgModule ({
+3.3. Adicionar na chamada:  
+
+`@NgModule ({
   imports: [
 	...
     MatSlideToggleModule,
   ]
-})`
+})`  
 
-3.4. Adicione a <mat-slide-toggle>tag ao app.component.htmlgosto assim:
+3.4. Adicione a <mat-slide-toggle>tag ao app.component.html:  
+
 `<mat-slide-toggle>Toggle me!</mat-slide-toggle>`
 
 Execute o ng serve para visualizar.

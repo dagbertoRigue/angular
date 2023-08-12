@@ -13,8 +13,8 @@ O comando  "ng add" instalará o Angular Material, o Component Dev Kit (CDK) e o
 
 Exibir um "slide toggle component" em seu aplicativo e verificar se tudo funciona.
 
-3.1. Abrir o arquivo app.module.ts
-3.2. Incluir o import: `import { MatSlideToggleModule } from '@angular/material/slide-toggle';`
+3.1. Abrir o arquivo app.module.ts  
+3.2. Incluir o import: `import { MatSlideToggleModule } from '@angular/material/slide-toggle';`  
 3.3. Adicionar na chamada: `@NgModule ({
   imports: [
 	...

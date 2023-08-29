@@ -17,7 +17,7 @@ Clique na aba "API" e copie o código do import, por exemplo: "import {MatSlideT
 
 Abra o arquivo do módulo que deseja incluir o componente, por exemplo, "app.module.ts", cole o texto no cabeçalho e após, adicione a chamada do importe em @NgModule... imports: [... ]
 
-4. De volta ao site do material.angular, acesse a aba "Examples" e escolha um dos componentes fornecidos.
+4. De volta ao site do material.angular, acesse a aba "Overview", ou "Examples" para mais componentes, e escolha um dos componentes fornecidos.
 
 Clique no ícone "View code" para copiar o código do componente escolhido.
 Feito isso, abra o arquivo app.component.html e copie o código para exibí-lo na tela.

@@ -1,6 +1,7 @@
 ### Adicionando Componentes
 ---  
-
+#### Uma aplicação Angular é composta, basicamente, por componentes. Cada componente pode conter outros componentes, dando hierarquia aos objetos criados (componentes).  
+---
 1. Acessar o site do Material:  
 
 https://material.angular.io/

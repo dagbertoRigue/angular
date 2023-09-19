@@ -1,8 +1,8 @@
 ## Adicionando Componentes
 ---  
 ##### Uma aplicação Angular é composta, basicamente, por componentes. Cada componente pode conter outros componentes, dando hierarquia aos objetos criados (componentes).  
-Um componente é formado pela classe (Typescript), pelo Template (HTML) e pelo Estilo (CSS).  
-Além disso, o componente possui outros elementos como, Diretivas, Injeção de dependências e Pipes.
+##### Um componente é formado pela classe (Typescript), pelo Template (HTML) e pelo Estilo (CSS).  
+##### Além disso, o componente possui outros elementos como, Diretivas, Injeção de dependências e Pipes.
 ---  
 ![image](https://github.com/dagbertoRigue/angular/assets/58428043/429ce271-3198-4993-b618-85e35d105445)
 

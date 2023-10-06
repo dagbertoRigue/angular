@@ -1,6 +1,8 @@
 ### Criando módulos
 
-A criação do módulo permite a organização da aplicação de forma lógica. Todos os componentes criados dentro do módulo são visíveis apenas dentro do módulo. Para tornar o componente visível a outros módulos, é preciso "exportar" o componente.
+A criação do módulo permite a organização da aplicação de forma lógica.  
+Todos os componentes criados dentro do módulo são visíveis apenas dentro do módulo.  
+Para tornar o componente visível a outros módulos, é preciso "exportar" o componente.
 
 ng generate module nome_do_modulo --routing
 

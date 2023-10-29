@@ -1,0 +1,32 @@
+<article>
+
+  <h3>Event Binding</h3>
+
+  <br>
+
+  <div>
+    <button (click)="botaoClicado()" class="btn btn-primary">Click here!</button>
+  </div>
+
+  <br>
+
+  <div> <!--refletindo valor digitado-->
+    <input type="text" (keyup)="onKeyUp($event)"/>
+    <p>Valor refletido: {{ valorAtual }}</p>
+  </div>
+
+  <br>
+
+  <div> <!--"salvando" valor digitado (vai refletir o valor ao clicar em Enter ou clicar fora do campo)-->
+    <input type="text" (keyup.enter)="salvarValor($event)" (blur)="salvarValor($event)"/> <!--blur-acionado quando um elemento perde o foco-->
+    <p>Valor salvo: {{ valorSalvo }}</p>
+  </div>
+
+  <br>
+
+  <span (mouseover)="onMouseOverOut()" (mouseout)="onMouseOverOut()" [class.highlight]="isMouseOver">
+    Passe o mouse sobre mim.
+  </span>
+
+
+</article>

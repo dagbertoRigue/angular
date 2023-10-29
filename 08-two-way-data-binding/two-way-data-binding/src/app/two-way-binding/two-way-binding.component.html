@@ -1,0 +1,61 @@
+<section>
+  <article>
+    <h3>Two-way DataBinding</h3>
+    <div>
+      <!--Ex 1-->
+      <label>Exemplo 1 (no two-way): </label><br>
+      <input type="text"
+      #search
+      [value]="name"
+      (input)="search.value"
+      />
+
+      <p>Você digitou: {{ search.value }}</p>
+
+      <br><br>
+
+      <!--Ex 2-->
+      <label>Exemplo 2 (no two-way): </label><br>
+      <input #box (keyup)="onKey(box.value)">
+      <p>Você digitou: {{values}}</p>
+
+      <br><br>
+
+      <!--Ex 3-->
+      <label>Exemplo 3 (no two-way): </label><br>
+      <input #newHero
+      (keyup.enter)="addHero(newHero.value)"
+      (blur)="addHero(newHero.value); newHero.value='' ">
+
+      <button type="button" (click)="addHero(newHero.value)">Add</button>
+
+      <ul><li *ngFor="let hero of heroes">{{hero}}</li></ul>
+
+      <br><br>
+
+      <!--Ex 4 - TWO WAY DATA BINDING-->
+      <!--ngModel = binding de propriedade e ngModelChange = binding de evento-->
+      <label>Exemplo 4 (two-way): </label><br>
+      <input type="text"
+      #boxtwoway
+      [ngModel]="fourexp"
+      (ngModelChange)="fourexp = boxtwoway.value"
+      />
+
+      <p>Você digitou: {{ boxtwoway.value }}</p>
+
+      <br><br>
+
+      <!--Ex 5 - TWO WAY DATA BINDING-->
+      <label>Exemplo 5 (Two-way): </label><br>
+      <p>Meu nome é {{ pessoa.name }}, sou formado em {{ pessoa.graduate }} e moro em {{ pessoa.end.cidade}}.</p>
+      Nome:
+      <input type="text" [(ngModel)]="pessoa.name"><br>
+      Formação:
+      <input type="text" [(ngModel)]="pessoa.graduate"><br>
+      Cidade:
+      <input type="text" [(ngModel)]="pessoa.end.cidade">
+
+    </div>
+  </article>
+</section>

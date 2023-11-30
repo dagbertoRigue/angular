@@ -1,4 +1,4 @@
-### Adicionando Componentes
+### Adicionando Componentes do Angular Material
 ---  
 
 1. Acessar o site do Material:  

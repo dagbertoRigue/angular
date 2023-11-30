@@ -23,7 +23,7 @@ Onde é incluído o angular Material.
 
 6. assets  
 
-Nesta pasta é adicionado as imagens.
+Nesta pasta é adicionado as imagens, audios e vídeos.
 
 7. app
 
